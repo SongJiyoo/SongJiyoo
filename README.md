@@ -11,7 +11,7 @@ Designing systems with cloud-native architecture in mind, including automated CI
 ## Tech Stack
 - Backend: Java, Spring Boot (Security, Data JPA), REST APIs, GraphQL 
 - Messaging: Kafka, RabbitMQ
-- Databases: PostgreSQL, Elasticsearch (product search, custom ranking & scoring (popularity-based))
+- Databases: PostgreSQL, Elasticsearch (product search, custom ranking & scoring (popularity-based)), Flyway (schema versioning & migrations)
 - Architecture: Microservices, Event-Driven Architecture (Kafka/RabbitMQ), Clean Architecture, Domain-Driven Design (DDD)
 - Infrastructure: Docker, GitHub Actions (CI/CD), AWS, Redis (caching, session storage, rate limiting)
 - Mobile: Kotlin, Jetpack Compose
